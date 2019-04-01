@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SerialImageDownloadActivity">
+
+    <Button
+        android:id="@+id/butDownload"
+        android:layout_width="@dimen/_150"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/download" />
+
+    <ImageView
+        android:id="@+id/ivFirst"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150"
+        android:scaleType="fitXY"
+        android:layout_marginTop="@dimen/_10dp"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/ivSecond"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150"
+        android:layout_marginTop="@dimen/_10dp"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/ivThird"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150"
+        android:layout_marginTop="@dimen/_10dp"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ServiceSample</string>
+    <string name="task_2">Serial Image Download</string>
+    <string name="task_3">Parallel Image Download</string>
+    <string name="download">Download</string>
+    <string name="key_images">image</string>
+    <string name="broadcastAction">com.servicesample.broadcastparallel</string>
+    <string name="url1">https://cdn.pixabay.com/photo/2018/10/30/16/06/water-lily-3784022__340.jpg</string>
+    <string name="url2">https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg</string>
+    <string name="url3">https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg</string>
+    <string name="uniqueID">uniqueID</string>
+    <string name="broadcastactionserial">com.servicesample.broadcastserial</string>
+    <string name="messageKey">as</string>
+    <string name="keyURL">urlKey</string>
+</resources>
